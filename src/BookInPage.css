@@ -1,0 +1,76 @@
+/* BookInPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url('./img2.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensure the image covers the entire screen */
+}
+
+.book-in-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  backdrop-filter: blur(10px); /* Blur effect for glass-like appearance */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black; /* White text color */
+  text-align: center; /* Center align text within the container */
+}
+
+.book-in-container h3 {
+  font-size: 28px; /* Larger font size */
+  color: #ffffff; /* White text color */
+  margin-bottom: 20px;
+}
+
+.book-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-in-form label {
+  margin-bottom: 10px;
+  color: #ffffff; /* White text color */
+  text-align: center; /* Center align labels */
+}
+
+.book-in-form input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  color: #ffffff; /* White text color */
+  outline: none;
+  margin-bottom: 20px;
+  text-align: center; /* Center align text within inputs */
+}
+
+.book-in-form button {
+  background-color: #4CAF50; /* Green button background */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Example transitions */
+}
+
+.book-in-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Example scale transform on hover */
+}
+
+.booked-message {
+  font-size: 24px; /* Larger font size */
+  color: #4CAF50; /* Green text color */
+  text-align: center;
+  margin-top: 20px;
+}

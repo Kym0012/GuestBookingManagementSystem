@@ -1,0 +1,56 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./img2.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black; /* Dark background color with transparency */
+    color: #fff; /* White text color */
+  }
+  
+  .dashboard-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly translucent black background */
+    border: 2px solid rgba(108, 117, 125, 0.7); /* Slightly translucent purple border */
+    border-radius: 12px;
+    padding: 30px;
+    width: 95%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  
+  .button-rows {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-row {
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .dashboard-button {
+    background-color:  #333;; /* Same as card background, slightly translucent */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth transitions */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dashboard-button:hover {
+    background-color:  rgba(0, 0, 0, 0.7);/* Darker shade of black on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
+  .dashboard-button:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,98 @@
+/* LoginPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./img2.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensure the image covers the entire screen */
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.05); /* Very transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for glass-like appearance */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px; /* Fixed width for the login form */
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Example transition for hover */
+}
+
+.login-container:hover {
+  transform: scale(1.05); /* Example scale transform on hover */
+}
+
+.profile-icon {
+  font-size: 48px; /* Adjust size of profile icon */
+  color: #fff; /* White icon color */
+  margin-bottom: 20px;
+}
+
+.login-heading {
+  font-size: 28px;
+  color: #fff; /* White text color */
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-color: #fff;
+  border-radius: 6px;
+  width: 100%; /* Full width input fields */
+  background-color: #000000; /* Very transparent white background */
+  color: white; /* White text color */
+  outline: none;
+  backdrop-filter: blur(5px); /* Blur effect for input fields */
+}
+
+.login-form button {
+  background-color: grey;/* Purple button background */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Example transitions */
+}
+
+.login-form button:hover {
+  background-color: grey; /* Light blue on hover */
+  transform: scale(1.05); /* Example scale transform on hover */
+}
+
+.login-form button:focus {
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.project-info {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff; /* Adjust the color as needed */
+  font-size: 14px;
+}
