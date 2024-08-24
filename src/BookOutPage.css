@@ -1,4 +1,4 @@
-/* BookOutPage.css */
+
 
 .body {
     margin: 0;
@@ -8,24 +8,24 @@
     background-color: gray;
     background: url('./img2.jpg') no-repeat center center fixed; 
     background-color: black;
-    background-size: cover; /* Ensure the image covers the entire screen */
+    background-size: cover; 
   }
   
   .book-out-container {
-    max-width: 600px; /* Adjust as needed for your layout */
-    margin: 20px auto; /* Center align and provide spacing */
+    max-width: 600px; 
+    margin: 20px auto; 
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    backdrop-filter: blur(10px); /* Blur effect for glass-like appearance */
+    background-color: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(10px); 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #ffffff; /* White text color */
-    text-align: center; /* Center align text within the container */
+    color: #ffffff; 
+    text-align: center; 
   }
   
   .book-out-container h3 {
-    font-size: 28px; /* Larger font size */
-    color: #ffffff; /* White text color */
+    font-size: 28px; 
+    color: #ffffff; 
     margin-bottom: 20px;
   }
   
@@ -42,54 +42,54 @@
     font-size: 16px;
     border: none;
     border-radius: 6px 0 0 6px;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
-    color: #ffffff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ffffff; 
     outline: none;
   }
   
   .search-container button {
-    background-color: #4CAF50; /* Green button background */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 0 6px 6px 0;
     padding: 12px 20px;
     font-size: 18px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Example transitions */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; 
   }
   
   .search-container button:hover {
-    background-color: #45a049; /* Darker green on hover */
-    transform: scale(1.05); /* Example scale transform on hover */
+    background-color: #45a049; 
+    transform: scale(1.05); 
   }
   
   .book-out-list {
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none;
     padding: 0;
   }
   
   .book-out-item {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.6); 
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* White shadow for contrast */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   }
   
   .book-out-item p {
-    color: #ffffff; /* White text color */
+    color: #ffffff; /
     margin: 5px 0;
   }
   
   .book-out-item button {
-    background-color: #4CAF50; /* Green button background */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 6px;
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Example transitions */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; 
   }
   
   .book-out-item button:hover {
